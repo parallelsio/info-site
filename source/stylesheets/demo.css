@@ -1,10 +1,17 @@
-#navbar {
-  
+#navbar_container {
   background: #808080;
   position: fixed;
   width: 100%;
   z-index: 10000;
+  height: 61px;
+  top: -5px;
 }
+
+#navbar {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  }
 
 #navbar input
 { 
@@ -15,16 +22,38 @@
 
 #navbar input.email
 { 
-font-size: 19px;
-padding: 4px;
-color: #D6D6D6;
+  font-size: 23px;
+  padding: 0 5px 0 14px;
+  color: #949494 !important;
+  font-family: 'Quattrocento Sans', sans-serif;
+  line-height: 38px;
+  position: relative;
+  top: 2px;
+  height: 55px;
 }
 
 #navbar .about_text 
 {
-  color:white;
-  font-family:'Quattrocento Sans', sans-serif;
+  
+  color: #D8D8D8;
+font-family: 'Quattrocento Sans', sans-serif;
+font-size: 23px;
+position: relative;
+top: 4px;
+margin-right: 10px;
+display: inline-block;
+
+
 }
+
+#navbar #mc-embedded-subscribe
+{
+  position: relative;
+  left:-10px;
+}
+
+
+
 
 .image 		{ padding:0 !important; background:none !important; }
 .aside	 	{ font-family:'ChaparralPro-LightIt';  } 
@@ -199,6 +228,13 @@ font-size:11px;
   
 }
 
+
+._1 {
+  
+  margin: 150px 0 0 0;
+left: -28px;
+top: 10px;
+}
 
 
 ._1-5-1 { 
