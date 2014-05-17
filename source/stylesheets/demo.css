@@ -1,3 +1,31 @@
+#navbar {
+  
+  background: #808080;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+
+#navbar input
+{ 
+  display: inline-block;
+  border-radius: 0 !important;
+}
+
+
+#navbar input.email
+{ 
+font-size: 19px;
+padding: 4px;
+color: #D6D6D6;
+}
+
+#navbar .about_text 
+{
+  color:white;
+  font-family:'Quattrocento Sans', sans-serif;
+}
+
 .image 		{ padding:0 !important; background:none !important; }
 .aside	 	{ font-family:'ChaparralPro-LightIt';  } 
 
@@ -171,6 +199,20 @@ font-size:11px;
   
 }
 
+
+
+._1-5-1 { 
+left: -317px;
+top: 358px;
+position: absolute;
+}
+
+
+._1-5-1 #mce-EMAIL
+{ clear:left; 
+line-height: 39px;
+font-size: 21px;
+}
 
 
 
