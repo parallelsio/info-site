@@ -1,7 +1,6 @@
+
 $(document).ready(function()
 {
-
-
 
 	Mousetrap.bind('1', function() { 
 
