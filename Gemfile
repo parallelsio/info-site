@@ -1,4 +1,5 @@
-# ruby '2.2.2'
+# necessary for Heroku?
+ruby '2.2.2'
 
 # If you do not have OpenSSL installed, update
 # the following line to use "http://" instead
