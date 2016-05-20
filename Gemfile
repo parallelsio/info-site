@@ -1,5 +1,5 @@
 # necessary for Heroku?
-ruby '2.2.2'
+ruby '2.3.0'
 
 # If you do not have OpenSSL installed, update
 # the following line to use "http://" instead
@@ -16,5 +16,5 @@ gem "middleman", "~>3.4.0"
 # Windows does not come with time zone data
 # gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
-gem 'puma',      '~> 2.7'
+gem 'puma',      '~> 3.4'
 gem 'rake',      '~> 10.1'
